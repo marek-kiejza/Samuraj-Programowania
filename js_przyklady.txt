@@ -1,0 +1,17 @@
+const wiek[6,10,40,4]
+wiek.sort()
+console.log(wiek.sort(function (a,b)
+{
+   return a-b
+}
+))
+
+//------
+
+function upper(city){
+return city.toUpperCase()
+}
+const miastaUpper=miasta.map(upper)
+
+//-----------
+

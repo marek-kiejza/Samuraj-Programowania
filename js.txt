@@ -1,0 +1,111 @@
+alert("alarm1"); //wyskakujacy box z informacja
+
+"Jakis text".length //dlogosc tego stringa
+
+"Jakis text".toUpperCase();
+
+4+4 //daje wynik dodawania
+
+
+.charAt() //Jaki znak jest na danej pozycji.
+.trim() //usuwa biale znaki na poczatku i na koncu
+"dzien dobry".indexOf("n") // na ktorej pozycji jest dany znak 'n'=4
+
+typeof 44 //pokazuje jakiego typu jest zmienna 44
+
+44+"66" ="4466" // number + string zamienia number na string
+
+44*"2"=88 //samiana stringa na liczbe
+
+var a = 10;
+a.toFixed(3) // daje wynik "10.000"  
+var b =4.999   b.toFixed(2)  "5.00" //zaokrangla w gore
+
+44..toFixed(2) // daje "44.00"
+
+=== //rowne i czy sa tego samego typu
+
+test("testowany napis") //pokazuje nam napis w consoli
+
+
+() if  else
+x ? y : v //if dla 2 funkcji tylko
+
+Boolean(cos) // sprawdza czy cos jest true/false 
+
+Kolejnosc
+!  &&  ||
+
+var a =false || true //dziala jak if zwraca true
+
+
+"aaa"&&""//zwraca "" jako pierwsze falce dziala jak if
+
+var a = console.log("aaa") //to samo co console.ReadLine()
+
+NaN //nic nie znaczy
+
+var dodawanie = funkcja(a,b){return a+b};
+var wynik =dodawania(2,5); //zwraca wynik dodawania 2+5=7
+
+function addNumbers(){var a=2; var b=10; var sum =a+b; return sum;
+
+window // wszystkie funkcje
+
+var- sprawdza najpierw lokalny pozniej globalny // jak jest lokalny 
+i globalny taki sam to widzi tylko lokalny(nie wychodzi poza zakres blokowy)
+
+let-nie moze byc deklarowana dwa razy
+
+const - mozna dodawac do arrey
+
+const a={} //objekt
+
+funkcja name(parametry){cialo}
+name()  //funkcja jest obiektem ktory moze byc wywolany
+
+const auto={kolor:"czerwony"}
+auto.kolor = "bialy"
+
+(`${namw} ${surname}`) //spacja do funkcji symbol ` wazny
+
+const userName=function(a){}  //przepisanie funkcji do const bez tego
+ var moze ja nadpisac
+const userName=a=>//to samo co wyzej Fat arrow nie trzeba {} 
+w a potrzeba()jak jest wiecej parametrow
+
+enter+shift for new line in console
+
+a=a||0 //zwraca 0 jesli nie przepisze sie nic do a 
+
+a=if(a===undefined || typeof a ==="string")a=0  //rebustnes
+
+function pokaz(x, callback){callback(x)}
+
+setInterval(show,100)  //wyswietli show co sec*
+
+document.addEventLister('click',function(){console.log("klik")})
+//pokazuje klik za kazdym razem jak klikniemy lewy myszy
+
+console.dir(useer)  // w scopes mozna sprawdzic wszystko co przechowuje user
+
+let arr= =["aa",34,{}] //arrey
+delete arr[1]; //usunie 34 z arrey
+arr.length = 10 //wydluzy ta arrey do 10
+arr[arr.length] ="nowy"; //dodaje nowy element (jesli arr jest 0,1,2 to length jest 3)
+
+arr[arr.length-1] //ostatni element arrey
+
+arr.pop() //usuwa ostatni element arrey
+arr.shift() // usuwa pierwszy element arrey
+arr.push("element") // dodaje element/elementy do arrey jako ostatni
+arr.unshift("element") // dodaje element/elementy do arrey jako pierwszy
+
+cont arr = ["a","b"].concat(["c","d"],["e"]) //laczenie tych arrey w jedna
+trzeba przypisac do innej arrey
+
+["a","b","c"].join() //otrzymujemy  "a,b,c" laczy w string w () mozna wstawic 
+separator np: ','
+
+
+		
